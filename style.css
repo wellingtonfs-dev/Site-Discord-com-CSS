@@ -1,0 +1,126 @@
+header{
+    width: 1280px;
+    height: 459px;    
+    position: relative;
+}
+
+.container-header{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header h1 {
+    width: 313px;
+    height: 112px;
+    font-family: "LuckiestGuy", cursive;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 400;
+    color: #ffffff; 
+}
+
+header p{
+    width: 757px;
+    height: 66px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container-button{
+    width: 502px;
+    height: 44px;
+    gap: 16px;
+}
+
+.button{    
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    border-radius: 28px;
+    text-align: center;
+}
+
+.nave{
+    background-color: #23272a ;
+    color: #ffffff;    
+}
+
+main p{    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #23272a;
+}
+
+section{
+    display: flex;
+    align-items: center;   
+ }
+
+.section-text{
+    margin: 20px;
+}
+
+.titulo-section{   
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54.47px;
+    color: #23272a;
+}
+
+.section-final{
+    max-width: 1280px;
+    height: 744px;
+    top: 1909px;
+    padding: 40px 0 40px 0;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.section-final p{
+    width: 802px;
+    height: 44px;    
+}
+
+.titulo-luckiest{   
+    width: 608px;
+    height: 80px; 
+    font-family: "LuckiestGuy", cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #23272a;
+}
+
+footer{
+    position:absolute;
+    width: 1280px;
+    height: 134px;
+    top: 2658px;
+    background-color: #23272a;
+    align-items: center;
+}
+
+footer svg{
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 63px;
+    top: 35px;
+    left: 525px;
+}
