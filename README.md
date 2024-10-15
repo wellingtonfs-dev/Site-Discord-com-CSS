@@ -9,3 +9,7 @@ Neste Desafio você colocará a mão na massa e irá reproduzir a página da inc
 ## Referência
 ![image](https://github.com/user-attachments/assets/bd8927c2-0a22-4733-a26e-b0fc672d1b84)
 
+## Layout Desktop
+![image](https://github.com/user-attachments/assets/ce5fd6ca-1e6b-45d3-b57f-9bd1fe2cc013)
+
+
