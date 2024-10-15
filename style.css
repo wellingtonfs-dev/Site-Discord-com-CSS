@@ -1,3 +1,13 @@
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    width: 1280px;    
+}
+
 header{
     width: 1280px;
     height: 459px;    
@@ -9,16 +19,19 @@ header{
     flex-direction: column;
     align-items: center;    
     position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 757px;
+    height: 270px;
+    top: 94px;
+    left: 261px;
+    gap: 24px;    
 }
 
 header h1 {
+    font-family: "Luckiest Guy", serif;
     width: 313px;
     height: 112px;
-    font-family: "LuckiestGuy", cursive;
     font-size: 56px;
+    text-align: center;
     line-height: 56px;
     font-weight: 400;
     color: #ffffff; 
@@ -41,6 +54,13 @@ header p{
 }
 
 .button{    
+    
+}
+
+.button-win{
+    width: 205px;
+    height: 44px;
+    border-radius: 28px;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -49,12 +69,29 @@ header p{
     text-align: center;
 }
 
-.nave{
+.button-nave{
+    width: 281px;
+    height: 44px;
+    border-radius: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    border-radius: 28px;
+    text-align: center;
     background-color: #23272a ;
     color: #ffffff;    
 }
 
-main p{    
+section{
+    display: flex;        
+    justify-content: center;  
+    align-items: center; 
+    height: 448px;
+    gap: 16px;
+ }
+
+section p{    
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -62,13 +99,29 @@ main p{
     color: #23272a;
 }
 
-section{
-    display: flex;
-    align-items: center;   
- }
 
-.section-text{
-    margin: 20px;
+.text1{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 374px; 
+    gap: 16px;   
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: 351px;
+    height: 212px;  
+    gap: 16px;    
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    width: 351px;
+    height: 234px;
+    gap: 16px;    
 }
 
 .titulo-section{   
@@ -81,12 +134,9 @@ section{
 
 .section-final{
     max-width: 1280px;
-    height: 744px;
-    top: 1909px;
+    height: 744px;    
     padding: 40px 0 40px 0;
-    gap: 16px;
-    display: flex;
-    justify-content: center;
+    gap: 16px;       
     flex-direction: column;
 
 }
@@ -99,7 +149,7 @@ section{
 .titulo-luckiest{   
     width: 608px;
     height: 80px; 
-    font-family: "LuckiestGuy", cursive;
+    font-family: "Luckiest Guy", serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -107,20 +157,13 @@ section{
     color: #23272a;
 }
 
-footer{
-    position:absolute;
+footer{    
+    display: flex;
     width: 1280px;
-    height: 134px;
-    top: 2658px;
+    height: 134px;    
     background-color: #23272a;
     align-items: center;
+    justify-content: center;
 }
 
-footer svg{
-    display: flex;
-    justify-content: center;
-    width: 230px;
-    height: 63px;
-    top: 35px;
-    left: 525px;
-}
+
